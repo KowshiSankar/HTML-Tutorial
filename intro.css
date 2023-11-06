@@ -1,0 +1,43 @@
+body {
+    margin: 40px;
+    padding: 0;
+    font-family: sans-serif;
+}
+.intro p{
+    margin-left: 200px;
+    text-align: justify;
+}
+.intro h2,h3
+{
+    text-align: center;
+}
+/* Style the side navigation bar */
+.side-nav1 {
+    background-color:#597f47;
+    color: #fff;
+    width: 200px;
+    height: 120vh;
+    position:fixed;
+    left: 0;
+    top:0px;
+    overflow-y: auto;
+}
+
+.side-nav1 ul {
+    list-style: none;
+    padding: 20px;
+    margin-left: 40px;
+}
+.side-nav1 li {
+    margin-bottom: 20px;
+}
+
+.side-nav1 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.side-nav1 a:hover{
+    color: #333;
+    background-color: aliceblue;
+}

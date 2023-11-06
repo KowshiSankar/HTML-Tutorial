@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*  header */
+.header{
+    height: 80px;
+    padding-right: 50px;
+    padding-left: 150px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#597f47;
+}
+.logo img{
+    width: 70px;
+    margin-left: -90px;
+    margin-top: 15px;
+}
+.navbar a{
+    color: white;
+    margin: 0.5rem;
+    padding: 2.5rem;
+    font-size: 1.5rem;
+    text-decoration: none ;
+}
+.navbar a:hover{
+    color: var(--btn-color);
+}
+.icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    display: none;
+}
+.header .icons .button {
+    margin-right: 0px;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+.icons div:hover{
+    cursor: pointer;
+}
+
+.icons a{
+    color: white;
+    padding: 0.3rem 0.9rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: 0.5s;
+    display: inline-block;
+}
+.contact-btn:hover{ 
+    transform: scale(1.1);
+    background: var(--btn-color);
+    border: 1px solid black;
+    color: black;
+}
+/* Side navigation bar */
+.side-nav {
+    background-color:#597f47;
+    color: #fff;
+    width: 200px;
+    height: 100%;
+    position:fixed;
+    /* left: 0; */
+    top:80px;
+    overflow: scroll; 
+    /* padding: 200px; */
+}
+
+.side-nav ul {
+    list-style: none;
+    padding: 20px;
+    margin-left: 40px;
+    padding-bottom: 90px;
+}
+.side-nav li {
+    margin-bottom: 20px;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight:bolder;
+}
+.side-nav a:hover{
+    color: #333;
+    background-color: aliceblue;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+.home p{
+    padding: 25px;
+    margin: 25px;
+    border-radius: 15px;
+    text-align: justify;
+    padding-left: 20%;
+}
+h2{
+    padding-top: 40px;
+    text-align: center;
+
+}
+h3{
+    padding: 15px;
+    /* margin: 25px; */
+    border-radius: 15px;
+    text-align: justify;
+    padding-left: 22%;
+}
+ ul{
+    list-style: circle;
+    text-align: justify;
+    padding-left: 30%;
+}
+/* Styling for featured tutorials */
+.tutorial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    
+}
+.intro p{
+    margin-left: 270px;
+    text-align: justify;
+}
+.intro h2{
+    text-align: center;
+}
+ol{
+    text-align: justify;
+    padding-left: 30%;
+    list-style:decimal;
+}
